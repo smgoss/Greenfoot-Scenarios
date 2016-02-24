@@ -24,4 +24,11 @@ public class Animal extends Actor
     {
         super.move(1);
     }
+    /**
+     * atWorldEdge - Tells the animal if they are at the egde of the world.
+     * changes method name to match teaching material.
+     */
+    public boolean atWorldEdge(){
+        return super.isAtEdge();
+    }
 }

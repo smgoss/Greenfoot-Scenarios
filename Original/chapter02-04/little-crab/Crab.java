@@ -8,7 +8,6 @@ public class Crab extends Animal
     public void act()
     {
         // Add your action code here
-        move(50);
     }
 }
 

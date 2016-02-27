@@ -41,7 +41,7 @@ public class Animal extends Actor
     * eat - Try to eat an object of class clss
     */
    void eat (java.lang.Class clss){
-       if (super.isTouching(clss) {
+       if (super.isTouching(clss) ){
            super.removeTouching(clss);
         } 
     }

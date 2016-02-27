@@ -31,4 +31,18 @@ public class Animal extends Actor
     public boolean atWorldEdge(){
         return super.isAtEdge();
     }
+   /**
+    * canSee - Returns true is we can see an object of class clss right where we are.
+    */
+   boolean canSee (java.lang.Class clss){
+       return super.isTouching(clss);
+   }
+   /**
+    * eat - Try to eat an object of class clss
+    */
+   void eat (java.lang.Class clss){
+       if (super.isTouching(clss) {
+           super.removeTouching(clss);
+        } 
+    }
 }
